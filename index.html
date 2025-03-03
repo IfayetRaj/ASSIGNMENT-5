@@ -34,7 +34,7 @@
         <div class="flex items-center gap-6">
             <div class="flex items-center p-2 gap-3 bg-slate-200 rounded-3xl">
                 <input type="checkbox" name="" id="" class="w-5 h-5">
-                <h2 class="text-2xl font-bold">23</h2>
+                <h2 class="text-2xl font-bold" id="head">23</h2>
             </div>
             <div>
                 <img src="assets/theme-btn.png" alt="" id="theme">
@@ -52,7 +52,7 @@
                     </div>
                     <div>
                         <p>Task Assigned</p>
-                        <h3 class="font-bold text-2xl">06</h3>
+                        <h3 class="font-bold text-2xl" id="task">6</h3>
                     </div>
                 </div>
 
@@ -91,7 +91,7 @@
                             <h2 class="font-semibold">21 March 2025</h2>
                         </div>
     
-                        <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">Completed</button>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-lg btn cursor-pointer">Completed</button>
                     </div>
                 </div>
                 <div class="bg-slate-200 rounded-lg p-3 w-72 flex flex-col gap-5">
@@ -109,7 +109,7 @@
                             <h2 class="font-semibold">21 March 2025</h2>
                         </div>
     
-                        <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">Completed</button>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-lg btn">Completed</button>
                     </div>
                 </div>
                 <div class="bg-slate-200 rounded-lg p-3 w-72 flex flex-col gap-5">
@@ -128,7 +128,7 @@
                             <h2 class="font-semibold">21 March 2025</h2>
                         </div>
     
-                        <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">Completed</button>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-lg btn">Completed</button>
                     </div>
                 </div>
                 <div class="bg-slate-200 rounded-lg p-3 w-72 flex flex-col gap-5">
@@ -147,7 +147,7 @@
                             <h2 class="font-semibold">21 March 2025</h2>
                         </div>
     
-                        <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">Completed</button>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-lg btn">Completed</button>
                     </div>
                 </div>
                 <div class="bg-slate-200 rounded-lg p-3 w-72 flex flex-col gap-5">
@@ -166,7 +166,7 @@
                             <h2 class="font-semibold">21 March 2025</h2>
                         </div>
     
-                        <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">Completed</button>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-lg btn">Completed</button>
                     </div>
                 </div>
                 <div class="bg-slate-200 rounded-lg p-3 w-72 flex flex-col gap-5">
@@ -185,7 +185,7 @@
                             <h2 class="font-semibold">21 March 2025</h2>
                         </div>
     
-                        <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">Completed</button>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-lg btn">Completed</button>
                     </div>
                 </div>
              </div>
@@ -195,15 +195,19 @@
              
         </div>
 
-        <div class="bg-white basis-1/4 rounded-lg">
+        <div class="bg-white basis-1/4 rounded-lg" >
             <div class="w-full h-fit flex items-center justify-center p-4 border-b border-dotted">
                 <div>
                     <div class="flex items-center gap-3 mb-3">
                         <img src="assets/activity.png" alt="">
                         <h2 class="text-lg">Activity Log</h2>
                     </div>
-                    <button class="bg-blue-500 px-4 py-2 rounded-lg text-white">Clear History</button>
+                    <button class="bg-blue-500 px-4 py-2 rounded-lg text-white" id="rmv">Clear History</button>
                  </div>
+            </div>
+
+            <div id="secondary" class="p-4 flex flex-col gap-4">
+
             </div>
         </div>
     </section>
