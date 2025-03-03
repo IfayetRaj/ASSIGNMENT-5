@@ -47,5 +47,5 @@ rmv.addEventListener("click", function () {
 });
 
 nextpage.addEventListener('click', function(){
-  window.location.href = 'blog.html' ;
+  window.location.href = "blog.html" ;
 })
